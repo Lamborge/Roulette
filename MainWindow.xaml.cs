@@ -15,14 +15,21 @@ using System.Windows.Shapes;
 
 namespace Rulette
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+   
     public partial class MainWindow : Window
     {
+
+        int[] nums = new int[2];
+        bool win;
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void SpinB_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
