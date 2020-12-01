@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="Roulette" Height="350" Width="600">
     <Grid>
-        <TextBlock x:Name="N1" Text="0" TextWrapping="Wrap" Margin="100,89,460,166" FontSize="72"/>
-        <TextBlock x:Name="N2" Text="0" TextWrapping="Wrap" Margin="140,89,420,166" FontSize="72"/>
-        <TextBlock x:Name="N3" Text="0" TextWrapping="Wrap" Margin="180,89,380,166" FontSize="72"/>
-        <Button x:Name="SpinB" Content="Spin" HorizontalAlignment="Center" Margin="0,256,0,0" VerticalAlignment="Top" Height="40" Width="140"/>
+        <TextBlock x:Name="N1" Text="0" TextWrapping="Wrap" Margin="100,89,425,133" FontSize="72"/>
+        <TextBlock x:Name="N2" Text="0" TextWrapping="Wrap" Margin="140,89,380,101" FontSize="72"/>
+        <TextBlock x:Name="N3" Text="0" TextWrapping="Wrap" Margin="180,89,355,105" FontSize="72"/>
+        <Button x:Name="SpinB" Content="Spin" HorizontalAlignment="Center" Margin="0,256,0,0" VerticalAlignment="Top" Height="40" Width="140" Click="SpinB_Click"/>
         <TextBlock x:Name="ResText" HorizontalAlignment="Left" Margin="420,121,0,0" Text="spin" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Foreground="#FF616161"/>
 
     </Grid>
