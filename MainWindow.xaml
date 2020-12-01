@@ -5,13 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Rulette"
         mc:Ignorable="d"
+        ResizeMode="NoResize"
         Title="Roulette" Height="350" Width="600">
-    <Grid>
+    <Grid x:Name="Grid" Background="White">
         <TextBlock x:Name="N1" Text="0" TextWrapping="Wrap" Margin="100,89,425,133" FontSize="72"/>
         <TextBlock x:Name="N2" Text="0" TextWrapping="Wrap" Margin="140,89,380,101" FontSize="72"/>
         <TextBlock x:Name="N3" Text="0" TextWrapping="Wrap" Margin="180,89,355,105" FontSize="72"/>
         <Button x:Name="SpinB" Content="Spin" HorizontalAlignment="Center" Margin="0,256,0,0" VerticalAlignment="Top" Height="40" Width="140" Click="SpinB_Click"/>
         <TextBlock x:Name="ResText" HorizontalAlignment="Left" Margin="420,121,0,0" Text="spin" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Foreground="#FF616161"/>
+        <CheckBox x:Name="DarkTheme" Content="Тёмная тема" HorizontalAlignment="Left" Margin="486,8,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
 
     </Grid>
 </Window>
